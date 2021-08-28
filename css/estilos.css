@@ -5,52 +5,51 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(#7209b7, #3789c0)
+  background: linear-gradient(#7209b7, #3789c0);
 }
 
-.contenedor{
-    font-family: 'Spartan', sans-serif;
-    margin: 50px auto; /*50px izq-der, auto para sup-inf*/
-    width: 400px;
-    padding: 30px;
-    background: rgba(0,0,0, .5);
-    border-radius: 8px;
+.contenedor {
+  font-family: "Spartan", sans-serif;
+  margin: 170px auto; /*50px izq-der, auto para sup-inf*/
+  width: 400px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
-.contenedor h2{
-    font-family: 'Spartan', sans-serif;
-    margin: 0 0 30px; /*Sup, der-izq, inf*/
-    padding: 0;
-    font-size: 30px;
-    color: #4cc9f0;
-    text-align: center;
+.contenedor h2 {
+  font-family: "Spartan", sans-serif;
+  margin: 0 0 30px; /*Sup, der-izq, inf*/
+  padding: 0;
+  font-size: 30px;
+  color: #4cc9f0;
+  text-align: center;
 }
 
-.contenedor .elemento label{
-    color: #fff;
+.contenedor .elemento label {
+  color: #fff;
 }
 
-.contenedor .elemento input{
-    font-family: 'Spartan', sans-serif;
-    width: 100%;
-    padding: 10px 0; /*10 sup-inf, 0 izq-der*/
-    background: #ffffff;
-    border: none;
-    border-radius: 5px;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px; /*Separa los inputs*/
+.contenedor .elemento input {
+  font-family: "Spartan", sans-serif;
+  width: 100%;
+  padding: 10px 0; /*10 sup-inf, 0 izq-der*/
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px; /*Separa los inputs*/
 }
 
-
-.contenedor .elemento input[type='submit']{
-    font-family: 'Spartan', sans-serif;
-    color: #fff;
-    background-color: #000000;
-    border: none;
-    border-radius: 5px;
-    /*letter-spacing: 2px;
+.contenedor .elemento input[type="submit"] {
+  font-family: "Spartan", sans-serif;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  /*letter-spacing: 2px;
     text-transform: uppercase;*/
-    cursor: pointer;
-    padding: 10px;
-    margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
 }
